@@ -8,3 +8,5 @@ edition = "2021"
 [dependencies]
 flatbuffers = "2.0.0"
 rocket = "0.5.0-rc.1"
+reqwest = "0.11"
+tokio = { version = "1", features = ["full"] }
