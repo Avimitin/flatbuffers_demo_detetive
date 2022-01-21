@@ -1,0 +1,24 @@
+namespace suspect;
+
+enum Mood:byte { Happy = 0, Mad, Sad, Calm = 3}
+
+struct Position {
+  longtitude:float;
+  latitude:float;
+}
+
+table Location {
+  pos:Position;
+  street:string;
+}
+
+table Suspect {
+  name:string;
+  age:uint;
+  face_img:string;
+  mood:Mood;
+  location:Location;
+  path:[Location];
+}
+
+root_type Suspect;
