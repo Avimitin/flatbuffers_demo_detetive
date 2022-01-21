@@ -3,6 +3,20 @@
 This repository use Rust to implement a HTTP server.
 The server is going to use the Google FlatBuffers for communicating.
 
+## Usage
+
+First, please ensure you have cargo 1.57 installed.
+
+Then, run the below command to run the demo.
+
+```bash
+# first run the server
+cargo run --bin server
+
+# open a new terminal, and run the client to receive message
+cargo run --bin client
+```
+
 ## The design
 
 Assuming that you are a detective.
