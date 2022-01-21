@@ -1,7 +1,9 @@
 # detective
 
 This repository use Rust to implement a HTTP server.
-The server is going to use the Google FlatBuffers for communicating.
+The server is going to use the
+[Google FlatBuffers](https://google.github.io/flatbuffers/index.html)
+for communicating.
 
 ## Usage
 
@@ -16,6 +18,10 @@ cargo run --bin server
 # open a new terminal, and run the client to receive message
 cargo run --bin client
 ```
+
+The result looks like this:
+
+![image](./screenshot.png)
 
 ## The design
 
