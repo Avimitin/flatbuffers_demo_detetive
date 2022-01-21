@@ -1,7 +1,7 @@
 # detective
 
 This repository use Rust to implement a HTTP server.
-The server is going to use the
+The server is using the
 [Google FlatBuffers](https://google.github.io/flatbuffers/index.html)
 for communicating.
 
